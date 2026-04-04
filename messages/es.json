@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Nehuen | Fullstack Engineer",
+    "description": "Portfolio de Nehuen — Fullstack Engineer JavaScript. Creando experiencias web modernas con React, Next.js y Node.js.",
+    "name": "Nehuen"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos Personales",
+    "skills": "Skills",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy Nehuen Goñi",
+    "name": "Nehuen Goñi",
+    "title": "Fullstack Engineer",
+    "subtitle": "Arquitecto de ecosistemas web escalables, desde la concepción hasta el despliegue. Me especializo en el desarrollo de interfaces de alto rendimiento y accesibilidad, bajo principios de Clean Architecture y una ingeniería orientada a resultados que une la precisión técnica con los objetivos del negocio.",
+    "cta": "Mirá mis proyectos"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "paragraphs": [
+      "Ingeniero de Software Fullstack especializado en el desarrollo de aplicaciones web de alta disponibilidad mediante el ecosistema React y Node.js.",
+      "Mi enfoque se centra en conectar arquitecturas de frontend modulares con sistemas de backend escalables, aplicando principios de Clean Architecture para transformar requerimientos complejos en productos de alto rendimiento. ",
+      "Mi prioridad es garantizar la excelencia técnica y la mantenibilidad, optimizando tanto la experiencia del usuario como la robustez del sistema."
+    ]
+  },
+  "projects": {
+    "title": "Proyectos personales",
+    "filterAll": "Todos",
+    "filterFrontend": "Frontend",
+    "filterFullstack": "Fullstack",
+    "filterBackend": "Backend",
+    "viewDemo": "Demo",
+    "viewCode": "Código",
+    "featured": "Destacado",
+    "items": {
+      "portfolio": {
+        "title": "Portfolio Personal",
+        "description": "Este mismo portfolio — construido con Next.js 16, TypeScript, Tailwind CSS y next-intl para soporte completo de internacionalización. Incluye animaciones, diseño responsive y tema oscuro."
+      },
+      "kmProject": {
+        "title": "Sistema de Gestión de Reparaciones y Productos",
+        "description": "Sistema fullstack para un local de tecnología que gestiona reparaciones, productos y clientes. Incluye seguimiento de reparaciones, inventario y registros de clientes."
+      },
+      "inmuebles": {
+        "title": "Sistema de Administración de Inmuebles",
+        "description": "Aplicación fullstack para administrar propiedades en alquiler, hacer seguimiento de inquilinos, controlar pagos y gestionar contratos."
+      },
+      "mernPacientes": {
+        "title": "Gestor de Pacientes Veterinarios",
+        "description": "Aplicación con stack MERN para gestionar pacientes veterinarios, con agenda de turnos y seguimiento del historial clínico."
+      },
+      "trickApp": {
+        "title": "Historial y Torneos de Truco",
+        "description": "Aplicación fullstack en TypeScript para registrar partidas y organizar torneos del juego de cartas argentino Truco."
+      },
+      "botHood": {
+        "title": "Bot de Cumpleaños",
+        "description": "Bot automatizado en Node.js que envía notificaciones de cumpleaños a grupos, llevando el registro de los próximos festejados."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills & Tecnologías",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Bases de datos",
+    "tools": "Herramientas"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "present": "Presente",
+    "items": {
+      "job1": {
+        "title": "Fullstack Developer",
+        "company": "Trade & Finance Technology",
+        "description": [
+          "Arquitectura y Desarrollo de interfaces de usuario escalables con React y Material-UI, garantizando la accesibilidad y consistencia visual en flujos de trabajo complejos.",
+          "Optimización Proactiva del rendimiento mediante estrategias de lazy loading y optimización de renderizado, mejorando significativamente la velocidad de carga.",
+          "Integración y Orquestación de datos mediante el consumo de APIs REST y una gestión de estado global robusta, asegurando la sincronización en tiempo real.",
+          "Sinergia con Diseño: Colaboración estrecha con equipos de UI/UX para transformar prototipos de alta fidelidad en componentes funcionales y técnicos de precisión.",
+          "Garantía de Calidad: Liderazgo en procesos de Code Review y promoción de buenas prácticas bajo estándares de Clean Code, elevando la mantenibilidad a largo plazo del código base."
+        ]
+      },
+      "job2": {
+        "title": "Encargado",
+        "company": "KM Computación",
+        "description": [
+          "Atención al cliente.",
+          "Reparación de PCs.",
+          "Gestión de proveedores.",
+          "Administración de cuentas.",
+          "Facturación.",
+          "Control de inventario."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tenés un proyecto en mente? ¡Hablemos!",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Contame sobre tu proyecto...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Te respondo pronto.",
+    "error": "Hubo un error. Intentá de nuevo."
+  }
+}

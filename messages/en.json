@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Nehuen | Fullstack Engineer",
+    "description": "Nehuen's Portfolio — Fullstack JavaScript Engineer. Building modern web experiences with React, Next.js, and Node.js.",
+    "name": "Nehuen"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Personal Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Nehuen Goñi",
+    "name": "Nehuen Goñi",
+    "title": "Fullstack Engineer",
+    "subtitle": "Architecting scalable web ecosystems from concept to deployment. I specialize in building high-performance, accessible interfaces with a focus on Clean Architecture and purposeful engineering that aligns technical precision with user-centric goals",
+    "cta": "Check out my work"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "Fullstack Software Engineer specialized in delivering high-availability web applications through the React/Node.js ecosystem.",
+      "I bridge the gap between modular frontend architecture and scalable backend systems, implementing Clean Architecture to transform complex business requirements into high-performance digital products.",
+      "Driven by engineering excellence, I focus on building maintainable, impact-driven solutions that optimize both user experience and system reliability."
+    ]
+  },
+  "projects": {
+    "title": " Personal Projects",
+    "filterAll": "All",
+    "filterFrontend": "Frontend",
+    "filterFullstack": "Fullstack",
+    "filterBackend": "Backend",
+    "viewDemo": "Demo",
+    "viewCode": "Code",
+    "featured": "Featured",
+    "items": {
+      "portfolio": {
+        "title": "Personal Portfolio",
+        "description": "This portfolio — built with Next.js 16, TypeScript, Tailwind CSS, and next-intl for full internationalization support. Features smooth animations, a responsive layout, and dark theme."
+      },
+      "kmProject": {
+        "title": "Repair & Product Management System",
+        "description": "Full-stack system for a tech store to manage repairs, products, and customers. Features repair tracking, inventory management, and customer records."
+      },
+      "inmuebles": {
+        "title": "Property Management System",
+        "description": "Full-stack application to manage rental properties, track tenants, control payments, and handle lease contracts."
+      },
+      "mernPacientes": {
+        "title": "Veterinary Patient Manager",
+        "description": "MERN stack application for managing veterinary patients with appointment scheduling and clinical history tracking."
+      },
+      "trickApp": {
+        "title": "Truco Tournament & History Tracker",
+        "description": "Full-stack TypeScript app for tracking match history and creating tournaments for the Argentine card game Truco."
+      },
+      "botHood": {
+        "title": "Birthday Reminder Bot",
+        "description": "Automated Node.js bot that sends birthday notifications to groups, keeping track of upcoming birthdays automatically."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Databases",
+    "tools": "Tools"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": {
+      "job1": {
+        "title": "Fullstack Developer",
+        "company": "Trade & Finance Technology",
+        "description": [
+          "Architecture and Development of scalable user interfaces with React and Material-UI, ensuring accessibility and visual consistency across complex workflows.",
+          "Proactive Performance Optimization through lazy loading strategies and render optimization, significantly improving load times.",
+          "Data Integration and Orchestration via REST API consumption and robust global state management, ensuring real-time synchronization.",
+          "Design Synergy: Close collaboration with UI/UX teams to transform high-fidelity prototypes into functional, precision-engineered components.",
+          "Quality Assurance: Leadership in Code Review processes and promotion of best practices under Clean Code standards, elevating long-term codebase maintainability."
+        ]
+      },
+      "job2": {
+        "title": "In Charge",
+        "company": "KM Computación",
+        "description": [
+          "Customer Service.",
+          "PC Repair.",
+          "Supplier Management.",
+          "Accounts Management.",
+          "Invoicing.",
+          "Inventory Control."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  }
+}

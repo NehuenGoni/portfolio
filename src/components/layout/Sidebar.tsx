@@ -25,7 +25,7 @@ export function Sidebar() {
   return (
     <>
       {/* Desktop Sidebar */}
-      <header className="hidden lg:flex lg:fixed lg:inset-y-0 lg:left-0 lg:w-[48%] lg:flex-col lg:justify-between lg:px-16 xl:px-24 lg:py-24">
+      <header className="hidden lg:flex lg:fixed lg:inset-y-0 lg:left-0 lg:w-[48%] lg:flex-col lg:justify-between lg:px-16 xl:px-24 lg:py-12">
         <div>
           <a href="#" className="group">
             <h1 className="text-5xl font-bold tracking-tight text-text">
@@ -39,7 +39,7 @@ export function Sidebar() {
             {tHero("subtitle")}
           </p>
 
-          <nav className="mt-16" aria-label="Main navigation">
+          <nav className="mt-10" aria-label="Main navigation">
             <ul className="flex flex-col gap-1">
               {NAV_ITEMS.map((item) => (
                 <li key={item.id}>

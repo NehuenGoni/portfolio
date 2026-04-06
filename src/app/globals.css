@@ -15,10 +15,12 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
   font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 87.5%; 
 }
 
 ::selection {

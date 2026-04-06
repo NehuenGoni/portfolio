@@ -38,7 +38,7 @@
     "items": {
       "portfolio": {
         "title": "Portfolio Personal",
-        "description": "Este mismo portfolio — construido con Next.js 16, TypeScript, Tailwind CSS y next-intl para soporte completo de internacionalización. Incluye animaciones, diseño responsive y tema oscuro."
+        "description": "Este mismo portfolio — construido con Next.js 16, TypeScript, Tailwind CSS y next-intl para soporte completo de internacionalización. Incluye animaciones y diseño responsive."
       },
       "kmProject": {
         "title": "Sistema de Gestión de Reparaciones y Productos",

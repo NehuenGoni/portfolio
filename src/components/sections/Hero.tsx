@@ -9,7 +9,7 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[calc(100vh-6rem)] lg:min-h-screen flex flex-col justify-center -mt-24 pt-24 lg:mt-0 lg:pt-0">
-      <GradientBlob className="w-[500px] h-[500px] -top-20 -right-40" />
+      <GradientBlob className="w-[500px] h-[500px] -top-20 -right-4" />
 
       <motion.p
         initial={{ opacity: 0, y: 20 }}

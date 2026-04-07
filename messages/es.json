@@ -21,7 +21,7 @@
   "about": {
     "title": "Sobre mí",
     "paragraphs": [
-      "Ingeniero de Software Fullstack especializado en el desarrollo de aplicaciones web de alta disponibilidad mediante el ecosistema React y Node.js.",
+      "Ingeniero de Software Fullstack especializado en el desarrollo de aplicaciones fintech y de alta disponibilidad mediante el ecosistema React y Node.js.",
       "Mi enfoque se centra en conectar arquitecturas de frontend modulares con sistemas de backend escalables, aplicando principios de Clean Architecture para transformar requerimientos complejos en productos de alto rendimiento. ",
       "Mi prioridad es garantizar la excelencia técnica y la mantenibilidad, optimizando tanto la experiencia del usuario como la robustez del sistema."
     ]
@@ -42,7 +42,7 @@
       },
       "kmProject": {
         "title": "Sistema de Gestión de Reparaciones y Productos",
-        "description": "Sistema fullstack para un local de tecnología que gestiona reparaciones, productos y clientes. Incluye seguimiento de reparaciones, inventario y registros de clientes."
+        "description": "Construido para un negocio real de reparación de computadoras (KM Computación, 100+ clientes activos). Reemplazó flujos manuales en papel con un sistema digital fullstack — reduciendo el tiempo de seguimiento de reparaciones y eliminando discrepancias de stock. Incluye estado de reparaciones en tiempo real, gestión de inventario e historial de clientes."
       },
       "inmuebles": {
         "title": "Sistema de Administración de Inmuebles",
@@ -77,23 +77,21 @@
         "title": "Fullstack Developer",
         "company": "Trade & Finance Technology",
         "description": [
-          "Arquitectura y Desarrollo de interfaces de usuario escalables con React y Material-UI, garantizando la accesibilidad y consistencia visual en flujos de trabajo complejos.",
-          "Optimización Proactiva del rendimiento mediante estrategias de lazy loading y optimización de renderizado, mejorando significativamente la velocidad de carga.",
-          "Integración y Orquestación de datos mediante el consumo de APIs REST y una gestión de estado global robusta, asegurando la sincronización en tiempo real.",
-          "Sinergia con Diseño: Colaboración estrecha con equipos de UI/UX para transformar prototipos de alta fidelidad en componentes funcionales y técnicos de precisión.",
-          "Garantía de Calidad: Liderazgo en procesos de Code Review y promoción de buenas prácticas bajo estándares de Clean Code, elevando la mantenibilidad a largo plazo del código base."
+          "Construí componentes UI modulares con React/MUI, incrementando la reutilización de código en un 30% en flujos de trabajo empresariales complejos.",
+          "Apliqué técnicas de lazy loading y memoización, reduciendo el bundle size en un 40% y mejorando los puntajes de Lighthouse.",
+          "Integré APIs REST y gestión de estado global, reduciendo la latencia de sincronización de datos en un 20% en sistemas de alta disponibilidad.",
+          "Optimicé la entrega UI/UX implementando sistemas de diseño estandarizados, reduciendo el tiempo de desarrollo en un 25%.",
+          "Lideré revisiones de código rigurosas bajo estándares Clean Code, reduciendo los bugs post-release en un 18%."
         ]
       },
       "job2": {
-        "title": "Encargado",
+        "title": "Technical Lead & Owner",
         "company": "KM Computación",
         "description": [
-          "Atención al cliente.",
-          "Reparación de PCs.",
-          "Gestión de proveedores.",
-          "Administración de cuentas.",
-          "Facturación.",
-          "Control de inventario."
+          "Alcancé un índice de resolución en primera visita superior al 95% en diagnóstico y reparación de hardware, reduciendo significativamente los tiempos de entrega.",
+          "Gestioné inventario y facturación de punta a punta, reduciendo las discrepancias de stock en un 15% mediante auditorías automatizadas.",
+          "Optimicé costos de compras y simplifiqué la conciliación de cuentas con proveedores clave de hardware.",
+          "Aumenté la retención de clientes gestionando una cartera diversa y brindando asesoramiento técnico especializado."
         ]
       }
     }

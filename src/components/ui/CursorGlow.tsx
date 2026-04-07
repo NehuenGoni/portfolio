@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 export function CursorGlow() {
+  const [mounted, setMounted] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const isDesktop = useMediaQuery("(min-width: 1024px)");
   const prefersReducedMotion = useMediaQuery(
@@ -12,7 +13,11 @@ export function CursorGlow() {
   );
 
   useEffect(() => {
-    if (!isDesktop || prefersReducedMotion) return;
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted || !isDesktop || prefersReducedMotion) return;
 
     const handleMouseMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
@@ -20,9 +25,9 @@ export function CursorGlow() {
 
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, [isDesktop, prefersReducedMotion]);
+  }, [mounted, isDesktop, prefersReducedMotion]);
 
-  if (!isDesktop || prefersReducedMotion) return null;
+  if (!mounted || !isDesktop || prefersReducedMotion) return null;
 
   return (
     <motion.div

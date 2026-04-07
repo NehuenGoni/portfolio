@@ -21,7 +21,7 @@
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "Fullstack Software Engineer specialized in delivering high-availability web applications through the React/Node.js ecosystem.",
+      "Fullstack Software Engineer specialized in delivering fintech and high-availability web applications through the React/Node.js ecosystem.",
       "I bridge the gap between modular frontend architecture and scalable backend systems, implementing Clean Architecture to transform complex business requirements into high-performance digital products.",
       "Driven by engineering excellence, I focus on building maintainable, impact-driven solutions that optimize both user experience and system reliability."
     ]
@@ -42,7 +42,7 @@
       },
       "kmProject": {
         "title": "Repair & Product Management System",
-        "description": "Full-stack system for a tech store to manage repairs, products, and customers. Features repair tracking, inventory management, and customer records."
+        "description": "Built for a real computer repair business (KM Computación, 100+ active clients). Replaced manual paper-based workflows with a full-stack digital system — cutting repair tracking time and eliminating stock discrepancies. Features real-time repair status, inventory management, and customer history."
       },
       "inmuebles": {
         "title": "Property Management System",
@@ -77,23 +77,21 @@
         "title": "Fullstack Developer",
         "company": "Trade & Finance Technology",
         "description": [
-          "Architecture and Development of scalable user interfaces with React and Material-UI, ensuring accessibility and visual consistency across complex workflows.",
-          "Proactive Performance Optimization through lazy loading strategies and render optimization, significantly improving load times.",
-          "Data Integration and Orchestration via REST API consumption and robust global state management, ensuring real-time synchronization.",
-          "Design Synergy: Close collaboration with UI/UX teams to transform high-fidelity prototypes into functional, precision-engineered components.",
-          "Quality Assurance: Leadership in Code Review processes and promotion of best practices under Clean Code standards, elevating long-term codebase maintainability."
+          "Built modular UI components using React/MUI, increasing code reusability by 30% across complex enterprise workflows.",
+          "Applied lazy loading and memoization techniques, reducing bundle size by 40% and improving Lighthouse scores.",
+          "Integrated REST APIs and global state management, cutting data sync latency by 20% in high-availability systems.",
+          "Streamlined UI/UX handoff implementing standardized design systems, reducing dev time by 25%.",
+          "Led rigorous code reviews enforcing Clean Code standards, decreasing post-release bugs by 18%."
         ]
       },
       "job2": {
-        "title": "In Charge",
+        "title": "Technical Lead & Owner",
         "company": "KM Computación",
         "description": [
-          "Customer Service.",
-          "PC Repair.",
-          "Supplier Management.",
-          "Accounts Management.",
-          "Invoicing.",
-          "Inventory Control."
+          "Achieved a 95%+ first-fix rate on hardware diagnostics and PC repairs, significantly reducing device turnaround times.",
+          "Managed end-to-end inventory and invoicing, reducing stock discrepancies by 15% through automated auditing processes.",
+          "Optimized procurement costs and streamlined account reconciliation with key hardware suppliers.",
+          "Increased client retention rates by managing a diverse account portfolio and providing specialized technical advisory."
         ]
       }
     }

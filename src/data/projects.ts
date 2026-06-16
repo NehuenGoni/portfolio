@@ -54,6 +54,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "unicoclub",
+    titleKey: "projects.items.unicoclub.title",
+    descriptionKey: "projects.items.unicoclub.description",
+    techStack: ["TypeScript", "Next.js", "React", "Tailwind CSS", "Motion", "Lenis"],
+    category: "frontend",
+    demoUrl: "https://unico.club",
+    repoUrl: "https://github.com/NehuenGoni/unicoclubweb",
+    featured: true,
+    image: "https://image.thum.io/get/https://unico.club",
+  },
+  {
     id: "bot-hood",
     titleKey: "projects.items.botHood.title",
     descriptionKey: "projects.items.botHood.description",

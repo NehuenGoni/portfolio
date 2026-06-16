@@ -56,6 +56,10 @@
         "title": "Historial y Torneos de Truco",
         "description": "Aplicación fullstack en TypeScript para registrar partidas y organizar torneos del juego de cartas argentino Truco."
       },
+      "unicoclub": {
+        "title": "UnicoClub Pádel",
+        "description": "Sitio web para un club de pádel real en Weston, FL. Construido con Next.js 16, React 19, Tailwind CSS v4 y Motion. Incluye integración de reservas con Playtomic, galería, mapa interactivo, formulario de contacto y scroll suave con Lenis."
+      },
       "botHood": {
         "title": "Bot de Cumpleaños",
         "description": "Bot automatizado en Node.js que envía notificaciones de cumpleaños a grupos, llevando el registro de los próximos festejados."

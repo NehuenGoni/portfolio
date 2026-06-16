@@ -56,6 +56,10 @@
         "title": "Truco Tournament & History Tracker",
         "description": "Full-stack TypeScript app for tracking match history and creating tournaments for the Argentine card game Truco."
       },
+      "unicoclub": {
+        "title": "UnicoClub Padel",
+        "description": "Website for a real padel club in Weston, FL. Built with Next.js 16, React 19, Tailwind CSS v4, and Motion for animations. Features Playtomic booking integration, gallery, interactive map, contact form, and smooth scroll with Lenis."
+      },
       "botHood": {
         "title": "Birthday Reminder Bot",
         "description": "Automated Node.js bot that sends birthday notifications to groups, keeping track of upcoming birthdays automatically."

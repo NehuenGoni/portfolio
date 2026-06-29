@@ -35,6 +35,8 @@
     "viewDemo": "Demo",
     "viewCode": "Código",
     "featured": "Destacado",
+    "readMore": "Ver más...",
+    "readLess": "Ver menos",
     "items": {
       "portfolio": {
         "title": "Portfolio Personal",
@@ -63,6 +65,10 @@
       "botHood": {
         "title": "Bot de Cumpleaños",
         "description": "Bot automatizado en Node.js que envía notificaciones de cumpleaños a grupos, llevando el registro de los próximos festejados."
+      },
+      "kmComputacionWeb": {
+        "title": "Sitio Web KM Computación",
+        "description": "Sitio web institucional para KM Computación, tienda de tecnología en Grand Bourg, Buenos Aires. Incluye catálogo de equipos y accesorios, servicio técnico, instalación de redes y CCTV, y formulario de contacto. Construido con React, Vite y generación de sitio estático (vite-react-ssg)."
       }
     }
   },

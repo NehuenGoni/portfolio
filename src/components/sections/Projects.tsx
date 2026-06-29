@@ -42,7 +42,7 @@ export function Projects() {
         />
       </ScrollReveal>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
         <AnimatePresence mode="popLayout">
           {filteredProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />

@@ -73,4 +73,15 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/NehuenGoni/botHood",
     featured: false,
   },
+  {
+    id: "kmcomputacion-web",
+    titleKey: "projects.items.kmComputacionWeb.title",
+    descriptionKey: "projects.items.kmComputacionWeb.description",
+    techStack: ["JavaScript", "React", "Vite", "Tailwind CSS", "Framer Motion", "React Router"],
+    category: "frontend",
+    demoUrl: "https://www.kmcomputacion.com.ar",
+    repoUrl: "https://github.com/NehuenGoni/kmweb",
+    featured: true,
+    image: "https://image.thum.io/get/https://www.kmcomputacion.com.ar",
+  },
 ];

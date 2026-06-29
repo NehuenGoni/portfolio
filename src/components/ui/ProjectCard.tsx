@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
@@ -12,6 +13,16 @@ type ProjectCardProps = {
 export function ProjectCard({ project }: ProjectCardProps) {
   const t = useTranslations();
   const tProjects = useTranslations("projects");
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isTruncated, setIsTruncated] = useState(false);
+  const descriptionRef = useRef<HTMLParagraphElement>(null);
+
+  useEffect(() => {
+    const el = descriptionRef.current;
+    if (el) {
+      setIsTruncated(el.scrollHeight > el.clientHeight);
+    }
+  }, [project.descriptionKey]);
 
   return (
     <motion.div
@@ -47,9 +58,23 @@ export function ProjectCard({ project }: ProjectCardProps) {
           )}
         </div>
 
-        <p className="text-text-muted text-sm mt-3 leading-relaxed">
+        <p
+          ref={descriptionRef}
+          className={`text-text-muted text-[13px] mt-3 leading-relaxed ${
+            isExpanded ? "" : "line-clamp-2"
+          }`}
+        >
           {t(project.descriptionKey)}
         </p>
+        {isTruncated && (
+          <button
+            type="button"
+            onClick={() => setIsExpanded((prev) => !prev)}
+            className="text-accent text-xs font-mono mt-1 hover:underline"
+          >
+            {isExpanded ? tProjects("readLess") : tProjects("readMore")}
+          </button>
+        )}
 
         <div className="flex flex-wrap gap-2 mt-4">
           {project.techStack.map((tech) => (

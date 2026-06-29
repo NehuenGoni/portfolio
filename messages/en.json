@@ -35,6 +35,8 @@
     "viewDemo": "Demo",
     "viewCode": "Code",
     "featured": "Featured",
+    "readMore": "Read more...",
+    "readLess": "Show less",
     "items": {
       "portfolio": {
         "title": "Personal Portfolio",
@@ -63,6 +65,10 @@
       "botHood": {
         "title": "Birthday Reminder Bot",
         "description": "Automated Node.js bot that sends birthday notifications to groups, keeping track of upcoming birthdays automatically."
+      },
+      "kmComputacionWeb": {
+        "title": "KM Computación Website",
+        "description": "Corporate website for KM Computación, a technology store in Grand Bourg, Argentina. Features a product catalog, repair services, networking/CCTV installation, and a contact form. Built with React, Vite, and static site generation (vite-react-ssg)."
       }
     }
   },
